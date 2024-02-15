@@ -23,6 +23,22 @@
     ></script>
   </head>
   <body>
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+      <a class="navbar-brand" href="#">A Few Drinks</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                  <a class="nav-link active" href="basic.html">Basic</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="advanced.html">Advanced</a>
+              </li>
+          </ul>
+      </div>
+  </nav>
     <h1>Have a cup with Sahil Grewal</h1>
     <div class="container">
       <div class="row">
@@ -133,7 +149,7 @@
         </div>
       </div>
     </div>
-<div class="container mt-3">
+<div class="container">
   <div class="dropdown">
     <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
       Dropdown button
@@ -143,6 +159,24 @@
       <li><a class="dropdown-item" href="advanced.html">Advanced</a></li>
     </ul>
   </div>
+  </div>
+<div class="container">
+  <form>
+    <div class="form-group">
+      <label for="emailInput">Email address</label>
+      <input type="email" class="form-control" id="userEmail" aria-describedby="emailHelp" placeholder="Enter email">
+      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
+    <div class="form-group>
+      <label for="drinkInput">Drink</label>
+      <input type="text" class="form-control" id="userDrink" placeholder="Enter your drink">
+    </div>
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="userNews">
+      <label class="form-check-label" for="newsletterbox">Sign up for newsletter?</label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
   </div>
   </body>
 </html>
